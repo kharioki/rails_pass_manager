@@ -4,4 +4,6 @@ class Password < ApplicationRecord
 
   encrypts :username, deterministic: true
   encrypts :password
+
+  validates :url, :username, :password, presence: true
 end
