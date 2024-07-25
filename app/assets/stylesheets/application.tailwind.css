@@ -2,12 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
 
 @layer components {
   .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
+    @apply py-2 px-4 bg-blue-600 text-white rounded;
+  }
+
+  label {
+    @apply block font-medium
+  }
+
+  input {
+    @apply block
+  }
+
+  input[type="submit"] {
+    @apply btn-primary
+  }
+
+  .field {
+    @apply mb-4
   }
 }
 
-*/
